@@ -29,5 +29,7 @@ fi
 if ! grep -q "Automation Status" myapp/index.html; then
   echo "ERROR: Automation Status text not found in index.html." >&2
   exit 1
+  else
+  echo "Automation Status text found in index.html."
 fi
 echo "All required files are present and date check passed."
