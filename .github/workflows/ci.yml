@@ -3,9 +3,9 @@ name: CI
 
 on:
   push:
-    branches: [ Feature_NiraliPatel ]
+    branches: [ Feature_SukhpreetSinghBhambra ]
   pull_request:
-    branches: [ Feature_NiraliPatel ]
+    branches: [ Feature_SukhpreetSinghBhambra ]
 
 jobs:
   lint:

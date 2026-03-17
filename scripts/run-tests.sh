@@ -30,4 +30,8 @@ if ! grep -q "Automation Status" myapp/index.html; then
   echo "ERROR: Automation Status text not found in index.html." >&2
   exit 1
 fi
+if ! grep -q "Sukhpreet Singh Bhambra" myapp/index.html; then
+  echo "ERROR: Missing Creator Name: Sukhpreet Singh Bhambra" >&2
+  exit 1
+fi
 echo "All required files are present and date check passed."
