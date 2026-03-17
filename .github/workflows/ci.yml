@@ -1,11 +1,10 @@
-
 name: CI
 
 on:
   push:
-    branches: [ cicd-prod ]
+    branches: [ Feature_MiswaPatel ]
   pull_request:
-    branches: [ cicd-prod ]
+    branches: [ Feature_MiswaPatel ]
 
 jobs:
   lint:
