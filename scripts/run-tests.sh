@@ -32,4 +32,4 @@ if ! grep -q "Automation Status" myapp/index.html; then
   else
   echo "Automation Status text found in index.html."
 fi
-echo "All required files are present and date check passed."
+echo "All required files are present and date check passed,automation status check passed."
