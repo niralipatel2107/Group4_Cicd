@@ -60,8 +60,3 @@ fi
 
 
 echo "All Tests Passed Successfully."
-echo "✔ Files exist"
-echo "✔ Date validation passed"
-echo "✔ Feature branch update verified"
-echo "✔ Creator name verified"
-echo "✔ UI elements verified"
