@@ -32,4 +32,10 @@ if ! grep -q "Automation Status" myapp/index.html; then
   else
   echo "Automation Status text found in index.html."
 fi
+if ! grep -q "Testing pipeline again" myapp/index.html; then
+  echo "ERROR: Testing pipeline text not found in index.html." >&2
+  exit 1
+  else
+  echo "Testing pipeline text found in index.html."
+fi
 echo "All required files are present and date check passed,automation status check passed."
