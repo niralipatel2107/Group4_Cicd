@@ -23,7 +23,7 @@ if [[ ! -f "myapp/script.js" ]]; then
 fi
 
 if ! grep -q "March 15, 2026" myapp/index.html; then
-  echo "ERROR: Today's date (March 15, 2026) not found in index.html." >&2
+  echo "ERROR: Today's date (March 17, 2026) not found in index.html." >&2
   exit 1
 fi
 
