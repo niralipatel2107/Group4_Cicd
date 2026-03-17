@@ -34,4 +34,8 @@ if ! grep -q "Sukhpreet Singh Bhambra" myapp/index.html; then
   echo "ERROR: Missing Creator Name: Sukhpreet Singh Bhambra" >&2
   exit 1
 fi
+if ! grep -q 'id="input-group-number"' myapp/index.html; then
+  echo "ERROR: Group Number input field missing." >&2
+  exit 1
+fi
 echo "All required files are present and date check passed."
