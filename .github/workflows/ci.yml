@@ -3,9 +3,9 @@ name: CI
 
 on:
   push:
-    branches: [ cicd-prod ]
+    branches: [ Feature_NiraliPatel ]
   pull_request:
-    branches: [ cicd-prod ]
+    branches: [ Feature_NiraliPatel ]
 
 jobs:
   lint:
