@@ -42,5 +42,4 @@ if ! grep -q 'id="input-group-number"' myapp/index.html; then
   else
   echo "Test Passed: Group Number input field is present."
 fi
-fi
 echo "All Test passed. All files are present, date check passed, creator name is present, and Group Number input field is present."
