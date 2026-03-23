@@ -1,11 +1,10 @@
-
 name: CI
 
 on:
   push:
-    branches: [ cicd-prod ]
+    branches: [Feature_VictorFerreira]
   pull_request:
-    branches: [ cicd-prod ]
+    branches: [Feature_VictorFerreira]
 
 jobs:
   lint:
@@ -19,7 +18,7 @@ jobs:
       - name: Install Node.js (for tooling)
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
 
       - name: Run tests script
         run: |
